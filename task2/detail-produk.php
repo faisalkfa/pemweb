@@ -33,7 +33,7 @@
       <div class="bayangan-header">
          <h1 id="flex1">DETAIL MOBIL</h1>
          <ul id="flex2">
-            <li><a href="index.html">Beranda</a></li>
+            <li><a href="index.html">Home</a></li>
          </ul>
       </div>
    </header>
