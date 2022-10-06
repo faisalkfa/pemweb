@@ -1,0 +1,164 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-color: #fff;
+}
+.section {
+   margin-bottom: 50px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   background-color: #fff;
+   
+}
+.gd {
+   width: 100%;
+}
+.jarak-atas {
+   margin: 15px 0;
+}
+h1 {
+   font-size: 14px;
+   color: #424242;
+   font-size: 20px;
+   margin: 15px auto;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+header ul {
+   text-align: center;
+   margin: 15px auto;
+   padding-top: 5px;
+}
+
+header li {
+   display: inline;
+   text-decoration: none;
+   margin-left: 25px;
+   font-weight: bold;
+}
+
+header li a {
+   color: #424242;
+}
+
+header li a:hover {
+   color: #424242;
+}
+
+.kotak {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+/* -------------------------- */
+.no-border{
+   border: none;
+}
+.no-background {
+   background: none;
+}
+.btn-beli {
+   color: rgb(255, 255, 255);
+   background-color: rgb(12, 95, 189);
+   padding: 7px 0 7px 0;
+   border: none;
+   width: 100%;
+   border-radius: 8px;
+}
+
+.btn-beli:hover {
+   background-color: rgba(12, 95, 189, 0.9);
+   cursor: pointer;
+}
+
+.col-produk2 {
+   width: 250px;
+   height: 300px;
+   display: inline-block;
+   margin: 10px 10px;
+   box-sizing: border-box;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   border-radius: 10px;
+}
+
+.col-produk2 figure {
+   width: 100%;
+   height: 160px;
+   border: 0px solid rgb(201, 201, 201);
+   margin: 10px auto;
+   box-sizing: border-box;
+}
+
+.col-produk2 img {
+   width: 100%;
+}
+
+.col-produk2:hover {
+   box-sizing: border-box;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.43) 0px 7px 9px;
+}
+.isi {
+   padding: 5px 10px;
+   box-sizing: border-box;
+}
+
+.nama {
+   color: rgb(83, 83, 83);
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 18px;
+   height: 50px;
+}
+
+.harga {
+   font-weight: bold;
+   font-size: 17px;
+   font-weight: bold;
+   color: #424242;
+   height: 30px;
+}
+
+section {
+   width: 85%;
+   margin: 50px auto 0px auto;
+}
+
+.judul {
+   font-weight: 600;
+}
+footer {
+   width: 100%;
+   height: 100px;
+   background-color: rgb(37, 37, 37);
+   position: absolute;
+   bottom: 0;
+}
+
+footer p {
+   text-align: center;
+   color: rgba(255, 255, 255, 0.8);
+   font-size: 12px;
+   margin-top: 40px;
+}
+.bayangan-header {
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   box-sizing: border-box;
+}
+header {
+   display: flex;
+   width: 100%;
+   height: 60px;
+   background-color: rgba(255, 255, 255, 1);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 7px 9px;
+   background-size: cover;
+}
