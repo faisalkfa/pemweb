@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>120140158 - Faisal Khairul Fasha</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body id="body">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div style="padding: 0 15px;">
+          <div class="flex">
+            <div class="navbar-image">
+              <img src="assets/img/foto.png" alt="navbar-image" />
+            </div>
+            <div class="navbar-text">
+              <h1>Hai, Saya <span class="nama">Faisal Khairul Fasha</span></h1>
+              <p>
+                Seorang Mahasiswa Dari Program Studi Teknik Informatika Institut
+                Teknologi Sumatera
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-menu">
+          <ul>
+            <li>
+              <a href="#tentang_saya">Tentang Saya</a>
+            </li>
+            <li>
+              <a href="#pengalaman_kerja">Pengalaman Kerja</a>
+            </li>
+            <li>
+              <a href="#hubungi_saya">Hubungi Saya</a>
+            </li>
+            <li class="mode">
+              <input type="checkbox" id="darkSwitch">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="tentang_saya">
+      <div class="monsterbox">
+          <div class="section-title" id="perkecil">
+            <h3># Tentang Saya</h3>
+          </div>
+        <div class="section-container" id="superbox">
+          <div class="boxcard" >
+            <div class="card" style="clear: both;" id="boxcard">
+              <div class="card-image">
+                <img
+                  src="assets/img/foto.png"
+                  alt="img"
+                  style="width: 100px;"
+                />
+              </div>
+              <div>
+                <p class="card-paragraph" id="card">
+                  Saya merupakan mahasiswa aktif semester 5 yang sedang menempuh
+                  pendidikan pada program studi Teknik Informatika Institut
+                  Teknologi Sumatera. Saya memiliki skill dalam coding dan
+                  berbisnis dengan baik.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-video" >
+            <figure>
+              <video
+                src="assets/video/video.mp4"
+                class="video"
+                controls
+                autoplay
+              ></video>
+              <figcaption id="fcaption">
+                <b>PENERAPAN PRINSIP HUKUM BERNOULLI PADA KERTAS</b>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pengalaman_kerja">
+      <div>
+        <div class="section-title" id="pengalaman">
+          <h3># Pengalaman Kerja</h3>
+        </div>
+        <div class="section-container" id="superbox-pengalaman">
+          <table class="table" id="table">
+            <thead>
+              <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Perusahaan</th>
+                <th colspan="2">Waktu</th>
+              </tr>
+              <tr>
+                <th>Mulai</th>
+                <th>Selesai</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Reseller</td>
+                <td>Slime Tools SMM</td>
+                <td>2015</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Admin</td>
+                <td>Smart Host</td>
+                <td>2016</td>
+                <td>2017</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>CEO & Founder</td>
+                <td>Smart Media SMM Panel</td>
+                <td>2017</td>
+                <td>Sekarang</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="hubungi_saya">
+      <div>
+        <div class="section-title" id="hubungi">
+          <h3># Hubungi Saya</h3>
+        </div>
+        <div class="section-container" id="superbox-hubungi">
+          <form action="#tentang_saya" class="form" id="formulir">
+            <div class="form-input-group">
+              <label
+                ><b><u>Nama Anda</u></b></label
+              ><br /><br />
+              First Name:
+              <input type="text" id="firstname" placeholder="" required /> Last
+              Name: <input type="text" id="lastname" placeholder="" required />
+            </div>
+            <div class="form-input-group">
+              <label
+                ><b><u>Pendidikan Terakhir</u></b></label
+              ><br /><br />
+              <div class="flex">
+                <div>
+                  <input type="radio" id="smp" name="pendidikan" required />
+                  <label for="smp">SMP</label>
+                </div>
+                <div>
+                  <input type="radio" id="sma" name="pendidikan" required />
+                  <label for="sma">SMA</label>
+                </div>
+                <div>
+                  <input type="radio" id="kuliah" name="pendidikan" required />
+                  <label for="kuliah">Kuliah</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-input-group">
+              <label
+                ><b><u>Gadget Yang Dimiliki</u></b></label
+              ><br /><br />
+              <div class="flex">
+                <div>
+                  <input type="checkbox" id="gadget1" name="smartphone" />
+                  <label for="gadget1">SmartPhone</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="gadget2" name="tablet" />
+                  <label for="gadget2">Tablet</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="gadget3" name="laptop" />
+                  <label for="gadget3">Laptop</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="gadget4" name="komputer" />
+                  <label for="gadget4">Komputer</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-input-group">
+              <label
+                ><b><u>Warna Kesukaan</u></b></label
+              ><br /><br />
+              <div class="flex">
+                <select name="warna" id="warna">
+                  <option value="biru">Biru</option>
+                  <option value="merah">Merah</option>
+                  <option value="hijau">Hijau</option>
+                  <option value="kuning">Kuning</option>
+                  <option value="hitam">Hitam</option>
+                  <option value="putih">Putih</option>
+                  <option value="lainnya">Lainnya</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-input-group">
+              <label
+                ><b><u>Kritik & Saran</u></b></label
+              ><br /><br />
+              <div class="flex">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="70"
+                  rows="10"
+                  placeholder="Isi Kritik & Saran Anda Disini"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-input-group">
+              <label
+                ><b><u>Rating Mengenai Website Ini</u></b></label
+              ><br /><br />
+              <div class="flex">
+                0<input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  name="nilai"
+                  id="nilai"
+                />100
+              </div>
+            </div>
+            <div class="form-input-group">
+              <button type="submit" class="btn">KIRIM</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h3 style="color: crimson;">
+        <strong>&copy; 2022.</strong> Made With Love by
+        <a href="#tentang_saya"><b>Faisal Khairul Fasha</b></a>
+      </h3>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
