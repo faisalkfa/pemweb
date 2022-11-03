@@ -42,10 +42,10 @@ perkecil.addEventListener("click", function showInfo(){
    const superbox = document.getElementById('superbox');
    if(superbox.style.display == 'none') {
       superbox.style.display = '';
-      document.getElementById('perkecil').innerHTML = "<h3># Tentang Saya</h3>";
+      document.getElementById('perkecil').innerHTML = "<h3># Tentang Saya ⬇⬇⬇</h3>";
    }else{
       superbox.style.display = 'none';
-      document.getElementById('perkecil').innerHTML = "<h3># Tentang Saya ...</h3>";
+      document.getElementById('perkecil').innerHTML = "<h3># Tentang Saya ➙➙➙</h3>";
    }
 });
 
@@ -54,10 +54,10 @@ pengalaman.addEventListener("click", function showInfo(){
    const kecil2 = document.getElementById('superbox-pengalaman');
    if(kecil2.style.display == 'none') {
       kecil2.style.display = '';
-      document.getElementById('pengalaman').innerHTML = "<h3>#pengalaman Kerja</h3>";
+      document.getElementById('pengalaman').innerHTML = "<h3># Pengalaman Kerja ⬇⬇⬇</h3>";
    }else{
       kecil2.style.display = 'none';
-      document.getElementById('pengalaman').innerHTML = "<h3>#Pengalaman Kerja ...</h3>";
+      document.getElementById('pengalaman').innerHTML = "<h3># Pengalaman Kerja ➙➙➙</h3>";
    }
 });
 
@@ -66,9 +66,9 @@ hubungi.addEventListener("click", function showInfo(){
    const kecil3 = document.getElementById('superbox-hubungi');
    if(kecil3.style.display == 'none') {
       kecil3.style.display = '';
-      document.getElementById('hubungi').innerHTML = "<h3>#Hubungi Saya</h3>";
+      document.getElementById('hubungi').innerHTML = "<h3># Hubungi Saya ⬇⬇⬇</h3>";
    }else{
       kecil3.style.display = 'none';
-      document.getElementById('hubungi').innerHTML = "<h3>#Hubungi Saya ...</h3>";
+      document.getElementById('hubungi').innerHTML = "<h3># Hubungi Saya ➙➙➙</h3>";
    }
 });
